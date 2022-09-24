@@ -17,6 +17,9 @@ namespace Oefening2
             int result1 = number1 * number2;
             int result2 = number3 * number4;
 
+            //bool isValid = true;
+            //bool isInvalid = false;
+
 
             //MessageBox.Show(result1 > result2);
         }
