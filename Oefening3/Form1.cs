@@ -14,13 +14,15 @@ namespace Oefening3
 
             do
             {
-                    s += (i * 7).ToString() + ", ";
-                    i++;
-                    //Console.WriteLine(i++);
+                s += (i * 7).ToString() + ", ";
+                i++;
+
+                //Console.WriteLine(i++);
             }
             while (i > 546);
 
             MessageBox.Show(s);
+
         }
     }
 }
