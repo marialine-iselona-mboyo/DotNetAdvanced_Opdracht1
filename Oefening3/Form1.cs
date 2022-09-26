@@ -14,6 +14,7 @@ namespace Oefening3
                 int result = i * 7;
 
                 //Console.WriteLine(result); 
+                // I don't understand.
                 // Waarom kan ik Console.Writeline niet zien?
 
                 MessageBox.Show(i + " * 7 " + result);
