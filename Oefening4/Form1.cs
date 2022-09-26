@@ -28,7 +28,17 @@ namespace Oefening4
 
         private void calculate_Click(object sender, EventArgs e)
         {
-            
+            double number1 = Convert.ToDouble(numericUpDown1.TextAlign);
+            double price1 = Convert.ToDouble(priceBox1.TextAlign);
+
+            double number2 = Convert.ToDouble(numericUpDown2.TextAlign);
+            double price2 = Convert.ToDouble(priceBox2.TextAlign);
+
+            double number3 = Convert.ToDouble(numericUpDown3.TextAlign);
+            double price3 = Convert.ToDouble(priceBox3.TextAlign);
+
+            double number4 = Convert.ToDouble(numericUpDown4.TextAlign);
+            double price4 = Convert.ToDouble(priceBox4.TextAlign);
         }
     }
 }
