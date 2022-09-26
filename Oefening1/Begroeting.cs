@@ -11,7 +11,8 @@ namespace Oefening1
         {
             string userName = Environment.UserName;
 
-            MessageBox.Show("Hello " + userName + ". Het is " + DateTime.Now.ToShortTimeString() + " op " + DateTime.Now.ToShortDateString());
+            MessageBox.Show("Hello " + userName + ". Het is " + DateTime.Now.ToShortTimeString() + 
+                " op " + DateTime.Now.ToShortDateString());
 
 
         }
