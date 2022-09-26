@@ -317,6 +317,7 @@
             this.calculate.TabIndex = 28;
             this.calculate.Text = "Calculate";
             this.calculate.UseVisualStyleBackColor = true;
+            this.calculate.Click += new System.EventHandler(this.calculate_Click);
             // 
             // OrderForm
             // 

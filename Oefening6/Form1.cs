@@ -6,5 +6,10 @@ namespace Oefening6
         {
             InitializeComponent();
         }
+
+        private void calculate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
