@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening1", "Oefening1\Oefe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening2", "Oefening2\Oefening2.csproj", "{B7B470E8-FD00-46A9-A5BA-993BD2CB1F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening3", "Oefening3\Oefening3.csproj", "{57C20F2C-1B9B-439E-9D7A-A16ACA0AE585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening3", "Oefening3\Oefening3.csproj", "{57C20F2C-1B9B-439E-9D7A-A16ACA0AE585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening4", "Oefening4\Oefening4.csproj", "{CC24287F-BDB2-4DDC-AC1D-05518947D528}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{57C20F2C-1B9B-439E-9D7A-A16ACA0AE585}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57C20F2C-1B9B-439E-9D7A-A16ACA0AE585}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57C20F2C-1B9B-439E-9D7A-A16ACA0AE585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC24287F-BDB2-4DDC-AC1D-05518947D528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC24287F-BDB2-4DDC-AC1D-05518947D528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC24287F-BDB2-4DDC-AC1D-05518947D528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC24287F-BDB2-4DDC-AC1D-05518947D528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

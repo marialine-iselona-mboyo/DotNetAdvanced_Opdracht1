@@ -23,6 +23,7 @@ namespace Oefening3
 
             MessageBox.Show(s);
 
+            //Problem while showing it
         }
     }
 }
