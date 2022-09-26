@@ -21,8 +21,10 @@ namespace Oefening2
             bool myBool = result1 > result2;
 
 
-            MessageBox.Show(number1 + "*" + +number2 + " = "+ +result1 + "\n" + +number3 + "*" + +number4 + " = " + +result2 +
-                "\n" + +number1 + "*" + +number2 + " > " + +number3 + "*" + +number4 + "\n" + myBool, "IsItBigger");
+            MessageBox.Show(number1 + "*" + +number2 + " = "+ +result1 + "\n" 
+                + +number3 + "*" + +number4 + " = " + +result2 +
+                "\n" + +number1 + "*" + +number2 + " > " + +number3 + "*" 
+                + +number4 + "\n" + myBool, "IsItBigger");
             
         }
     }

@@ -9,7 +9,23 @@ namespace Oefening3
 
         private void btnThree_Click_1(object sender, EventArgs e)
         {
-            int i = 0;
+            for(int i = 0; i < 100; i++)
+            {
+                int result = i * 7;
+
+                //Console.WriteLine(result); 
+                // Waarom kan ik Console.Writeline niet zien?
+
+                MessageBox.Show(i + " * 7 " + result);
+
+                if(result >= 546)
+                {
+                    break;
+                }
+            }
+            
+            
+            /*int i = 0;
             string s = "";
 
             do
@@ -19,9 +35,9 @@ namespace Oefening3
 
                 //Console.WriteLine(i++);
             }
-            while (i > 546);
+            while (i >= 546);
 
-            MessageBox.Show(s);
+            MessageBox.Show(s);*/
 
             //Problem while showing it
         }
