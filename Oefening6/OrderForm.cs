@@ -36,8 +36,6 @@ namespace Oefening6
             double subtotal = result1 + result2 + result3 + result4;
             subtotalTB.Text = "€ " + subtotal.ToString();
 
-            //double tax = Convert.ToDouble(taxBox.Text);
-
             double taxSales = subtotal * 7 / 100;
             salesTaxTB.Text = "€" + taxSales.ToString();
 
