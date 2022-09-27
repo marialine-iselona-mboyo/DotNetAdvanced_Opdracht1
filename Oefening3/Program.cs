@@ -1,19 +1,22 @@
-namespace Oefening3
+﻿// See https://aka.ms/new-console-template for more information
+
+namespace MyApp
 {
-    internal static class Program
+    public class Oefening3
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
+        public static void Main(String[] args)
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            for (int i = 0; i < 100; i++)
+            {
+                int result = i * 7;
 
+                Console.WriteLine(result); 
 
+                if (result >= 546)
+                {
+                    break;
+                }
+            }
         }
     }
 }
