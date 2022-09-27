@@ -30,26 +30,22 @@ namespace Oefening4
         {
             double number1 = Convert.ToDouble(numericUpDown1.Text);
             double price1 = Convert.ToDouble(priceBox1.Text);
-            double result1 = 0;
-            result1 = number1 * price1;
+            double result1 = number1 * price1;
             extPriceBox1.Text = "€ " + result1.ToString();
 
             double number2 = Convert.ToDouble(numericUpDown2.Text);
             double price2 = Convert.ToDouble(priceBox2.Text);
-            double result2 = 0;
-            result2 = number2 * price2;
+            double result2 = number2 * price2;
             extPriceBox2.Text = "€ " + result2.ToString();
 
             double number3 = Convert.ToDouble(numericUpDown3.Text);
             double price3 = Convert.ToDouble(priceBox3.Text);
-            double result3 = 0;
-            result3 = number3 * price3;
+            double result3 = number3 * price3;
             extPriceBox3.Text = "€ " + result3.ToString();
 
             double number4 = Convert.ToDouble(numericUpDown4.Text);
             double price4 = Convert.ToDouble(priceBox4.Text);
-            double result4 = 0;
-            result4 = number4 * price4;
+            double result4 = number4 * price4;
             extPriceBox4.Text = "€ " + result4.ToString();
 
 
