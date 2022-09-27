@@ -42,13 +42,13 @@ namespace Oefening6
             double shipping = 0; //= Convert.ToDouble(shippingTB.Text);
             if (subtotal <= 20)
             {
-                shipping = 5;
+                shippingTB.Text = "5";
             } else if (subtotal >= 20 || subtotal < 50)
             {
-                shipping = 7.5;
+                shippingTB.Text = "7.5";
             } else if (subtotal >= 50 || subtotal < 75)
             {
-                shipping = 10;
+                shippingTB.Text = "10";
             } else if(subtotal >= 75)
             {
                 shippingTB.Text = "Free";
