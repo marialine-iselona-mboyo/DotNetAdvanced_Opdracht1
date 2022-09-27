@@ -46,6 +46,15 @@ namespace Oefening6
             salesTaxTB.Text = "€" + taxSales.ToString();
 
             double shipping = Convert.ToDouble(shippingTB.Text);
+            //switch (shippingTB.Text)
+            //{
+            //    case "0":
+            //        if (subtotal <= 20)
+            //        {
+
+            //        }
+                    
+            //}
 
             double grandTotal = subtotal + taxSales + shipping;
             grandTotalTB.Text = "€" + grandTotal.ToString();
