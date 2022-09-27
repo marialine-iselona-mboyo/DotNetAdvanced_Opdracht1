@@ -29,39 +29,30 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.number = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbResult = new System.Windows.Forms.TextBox();
             this.calculateBtn = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbNumber = new System.Windows.Forms.TextBox();
+            this.number = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.tbResult);
             this.panel1.Controls.Add(this.calculateBtn);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.tbNumber);
             this.panel1.Controls.Add(this.number);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(372, 209);
             this.panel1.TabIndex = 0;
             // 
-            // number
+            // tbResult
             // 
-            this.number.AutoSize = true;
-            this.number.Location = new System.Drawing.Point(71, 31);
-            this.number.Name = "number";
-            this.number.Size = new System.Drawing.Size(81, 25);
-            this.number.TabIndex = 1;
-            this.number.Text = "Number:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(170, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 31);
-            this.textBox1.TabIndex = 2;
+            this.tbResult.Location = new System.Drawing.Point(27, 152);
+            this.tbResult.Name = "tbResult";
+            this.tbResult.Size = new System.Drawing.Size(321, 31);
+            this.tbResult.TabIndex = 4;
             // 
             // calculateBtn
             // 
@@ -73,12 +64,21 @@
             this.calculateBtn.UseVisualStyleBackColor = true;
             this.calculateBtn.Click += new System.EventHandler(this.calculateBtn_Click);
             // 
-            // textBox2
+            // tbNumber
             // 
-            this.textBox2.Location = new System.Drawing.Point(27, 152);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(321, 31);
-            this.textBox2.TabIndex = 4;
+            this.tbNumber.Location = new System.Drawing.Point(170, 28);
+            this.tbNumber.Name = "tbNumber";
+            this.tbNumber.Size = new System.Drawing.Size(150, 31);
+            this.tbNumber.TabIndex = 2;
+            // 
+            // number
+            // 
+            this.number.AutoSize = true;
+            this.number.Location = new System.Drawing.Point(71, 31);
+            this.number.Name = "number";
+            this.number.Size = new System.Drawing.Size(81, 25);
+            this.number.TabIndex = 1;
+            this.number.Text = "Number:";
             // 
             // sum
             // 
@@ -97,9 +97,9 @@
         #endregion
 
         private Panel panel1;
-        private TextBox textBox2;
+        private TextBox tbResult;
         private Button calculateBtn;
-        private TextBox textBox1;
+        private TextBox tbNumber;
         private Label number;
     }
 }
